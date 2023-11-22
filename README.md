@@ -30,3 +30,7 @@ def set_vibration(controller, left_motor, right_motor):
     vibration = XINPUT_VIBRATION(int(left_motor * 65535), int(right_motor * 65535))
     XInputSetState(controller, ctypes.byref(vibration))
 ```
+
+## "Catch the Blue Ball"
+
+To run the python game,  simply run the last code cell.
